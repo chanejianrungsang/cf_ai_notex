@@ -6,6 +6,10 @@ declare namespace Cloudflare {
 		mainModule: typeof import("./src/index");
 	}
 	interface Env {
+		IMAGES: R2Bucket;
+		CHAT_SESSIONS: DurableObjectNamespace;
+		AI: any;
+		DB: D1Database;
 	}
 }
 interface Env extends Cloudflare.Env {}
