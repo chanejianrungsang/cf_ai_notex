@@ -4,6 +4,8 @@
 
 **Smart note-taking with persistent AI conversations, image uploads, and real-time markdown rendering.**
 
+**Demo: https://cf-ai-notex.vercel.app/**
+
 ## Features
 
 **AI Study Assistant (Bob)**
